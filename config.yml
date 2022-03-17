@@ -1,0 +1,109 @@
+baseURL: "https://xelayz.com/"
+title: xelayz
+theme: PaperMod
+paginate: 3
+
+enableRobotsTXT: true
+DefaultContentLanguage: "de"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  description: "Meine persönliche Webseite im World Wide Web."
+  keywords: [xelayz, robin, blog]
+  author: Robin
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+
+languages:
+  de:
+    languageName: "German"
+    weight: 1
+    homeInfoParams:
+      Title: "Hallo Du!"
+      Content: Willkommen auf meiner persönlichen Seite im World Wide Web. Hier möchte ich alle meine digitalen Dinge wie **Kontaktdaten**, **Services** und vielleicht den ein oder anderen **Blogeintrag** veröffentlichen. Viel Spaß. Du kannst mich übrigens Robin nennen...
+    menu:
+      main:
+        - identifier: about
+          name: Über mich
+          url: /about/
+          weight: 10
+        - identifier: projects
+          name: Projekte
+          url: /projects/
+          weight: 20
+        - identifier: services
+          name: Services
+          url: /services/
+          weight: 30
+        - identifier: suggestions
+          name: Empfehlungen
+          url: /suggestions/
+          weight: 40
+        - identifier: blog
+          name: Blog
+          url: /blogs/
+          weight: 50
+    socialIcons:
+      - name: email
+        url: "mailto:xelayz@systemli.org?body=Sende eine verschlüsselte Nachricht mit Hilfe meines PGP Keys: https://xelayz.com/pgpkey/"
+      - name: PGP Key
+        url: "/pgpkey"
+      - name: matrix
+        url: "https://matrix.to/#/@robin:xelayz.com"
+      - name: steam
+        url: "https://steamcommunity.com/id/xelayzzz/"
+      - name: github
+        url: "https://github.com/xelayz"
+  en:
+    languageName: "English"
+    weight: 2
+    homeInfoParams:
+      Title: "Hey you!"
+      Content: Welcome to my personal page on the World Wide Web. Here I would like to publish all my digital things like **contact data**, **services** and maybe one or the other **blog entry**. Have fun. You can call me Robin, by the way...
+    menu:
+      main:
+        - identifier: about
+          name: About Me
+          url: /about/
+          weight: 10
+        - identifier: projects
+          name: Projects
+          url: /projects/
+          weight: 20
+        - identifier: services
+          name: Services
+          url: /services/
+          weight: 30
+        - identifier: suggestions
+          name: Suggestions
+          url: /suggestions/
+          weight: 40
+        - identifier: blog
+          name: Blog
+          url: /blogs/
+          weight: 50
+    socialIcons:
+      - name: email
+        url: "mailto:xelayz@systemli.org?body=Send an encrypted message using my PGP key: https://xelayz.com/pgpkey/"
+      - name: PGP Key
+        url: "/pgpkey"
+      - name: matrix
+        url: "https://matrix.to/#/@robin:xelayz.com"
+      - name: steam
+        url: "https://steamcommunity.com/id/xelayzzz/"
+      - name: github
+        url: "https://github.com/xelayz"
