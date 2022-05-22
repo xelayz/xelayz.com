@@ -62,8 +62,6 @@ languages:
         url: "mailto:xelayz@systemli.org?body=Sende eine verschlüsselte Nachricht mit Hilfe meines PGP Keys: https://xelayz.com/pgpkey/"
       - name: PGP Key
         url: "/pgpkey"
-      - name: matrix
-        url: "https://matrix.to/#/@robin:xelayz.com"
       - name: steam
         url: "https://steamcommunity.com/id/xelayzzz/"
       - name: github
@@ -101,8 +99,6 @@ languages:
         url: "mailto:xelayz@systemli.org?body=Send an encrypted message using my PGP key: https://xelayz.com/pgpkey/"
       - name: PGP Key
         url: "/pgpkey"
-      - name: matrix
-        url: "https://matrix.to/#/@robin:xelayz.com"
       - name: steam
         url: "https://steamcommunity.com/id/xelayzzz/"
       - name: github
