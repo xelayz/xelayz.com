@@ -53,10 +53,14 @@ languages:
           name: Empfehlungen
           url: /suggestions/
           weight: 40
+        - identifier: pictures
+          name: Bilder
+          url: /pictures/
+          weight: 50
         - identifier: blog
           name: Blog
           url: /blogs/
-          weight: 50
+          weight: 60
     socialIcons:
       - name: email
         url: "mailto:xelayz@systemli.org?body=Sende eine verschlüsselte Nachricht mit Hilfe meines PGP Keys: https://xelayz.com/pgpkey/"
@@ -90,10 +94,14 @@ languages:
           name: Suggestions
           url: /suggestions/
           weight: 40
+        - identifier: pictures
+          name: Pictures
+          url: /pictures/
+          weight: 50          
         - identifier: blog
           name: Blog
           url: /blogs/
-          weight: 50
+          weight: 60
     socialIcons:
       - name: email
         url: "mailto:xelayz@systemli.org?body=Send an encrypted message using my PGP key: https://xelayz.com/pgpkey/"
